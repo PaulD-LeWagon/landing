@@ -1,0 +1,133 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 700 */
+
+.josefin-sans-600 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.josefin-sans-400 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+
+  background-image: url(../images/gray-white-pixelated.jpg);
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-box-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 32%;
+}
+
+#hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 100px 0;
+  padding: 0;
+  background-image: url(../images/endless-purple.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 600px;
+  box-shadow: inset 0 -15px 25px #180a94;
+}
+#hero-banner .container {
+  width: 70%;
+}
+#hero-banner .container h1 {
+  font-size: 35px;
+}
+#hero-banner .container p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/** The Footer **/
+
+#footer {
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+  margin: 100px 0 0 0;
+  height: 325px;
+  background: linear-gradient(to top, #07051d, #0a0629);
+}
+#footer > div {
+  display: inline
+}
+#footer * {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.4;
+}
+#footer .footer.container {
+  text-align: left;
+  padding: 25px;
+}
+#footer .footer.container ul {
+  padding: 0;
+  margin: 0;
+}
+#footer .footer.container li {
+  list-style-type: none;
+  display: inline;
+}
+#footer #copyright {
+  text-align: right;
+  padding: 25px;
+}
+#footer #copyright a {
+  padding: 20px 5px;
+  font-size: 18px;
+  font-style: italic;
+  text-transform: lowercase;
+  text-shadow: 0 0 25px #fff;
+}

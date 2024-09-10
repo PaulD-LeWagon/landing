@@ -1,0 +1,98 @@
+/* .card {} */
+
+.card-category {
+  border-radius: 5px;
+
+  width: 500px;
+  height: 180px;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card-category div {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card-product {
+  width: 500px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card-product img {
+  width: auto;
+  height: 120px;
+  object-fit: cover;
+}
+.card-product .card-product-info {
+  margin:0;
+  padding: 16px;
+}
+.card-product .card-product-info h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-product .card-product-info p {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0.7;
+}
+
+.card-trip {
+  height: 265px;
+  width: 500px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+}
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-trip  div.card-trip-info {
+  margin: 0;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card-trip div.card-trip-info div > * {
+  margin: 0;
+  padding: 0;
+}
+.card-trip div.card-trip-info div h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-trip div.card-trip-info div p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.card-trip img.card-user-avatar {
+  position: absolute;
+  top: -25px;
+  right: 16px;
+  width: 50px;
+  height: 50px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
+.card-trip .card-trip-pricing {
+  font-style: italic;
+  font-weight: bold;
+}
